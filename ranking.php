@@ -7,6 +7,6 @@ $rank = mysql_query("SELECT * FROM ranking ORDER BY quant_books DESC LIMIT 1, 10
         $i++; 
 ?>
 <div style="background-color: blue;width: 60px;height: 20px;padding: 20px;">
-    <?php echo $row['user']; ?> com <?php echo $row['quant_books']; ?>
+    <?php echo $row['user']; ?> com <?php echo $row['quant_books']; ?> e <?php echo $row['id_book']; ?>
 </div>
 <? } ?>
